@@ -14,7 +14,7 @@
 
 
 import SwiftUI
-
+import UIKit
 class VideoController: WKHostingController<SwiftUIView>{
     override var body: SwiftUIView{
         SwiftUIView(progressWidth: 0, isPaused: false, totalSetTime: 20, progressInSeconds: 0)
@@ -113,15 +113,15 @@ struct ControlView: View {
             ZStack(alignment: .center, content: {
                 Button(action: {}, label: {
                 })
-                .blur(radius: 10)
+//                .blur(radius: 10)
                 .frame(width: 40, height: 40, alignment: .center)
-                .background(Color(red: 1.0, green: 1.0, blue: 1.0, opacity: 0.2))
                 .clipped()
                 Image("previousIcon")
                     .resizable()
                     .clipped()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 20, height: 20, alignment: .center)
+                    .background(Circle().fill(Color(red: 1.0, green: 1.0, blue: 1.0, opacity: 0.2)).blur(radius: 100, opaque: false))
             })
                .frame(width: 40, height: 40, alignment: .center)
                .clipped()
@@ -129,36 +129,30 @@ struct ControlView: View {
             Spacer(minLength: 10)
             Button(action: {actionPressed()}, label: {
                 ZStack{
-                    Button(action: {}, label: {
-                    })
-                    .blur(radius: 10)
-                    .frame(width: 58, height: 58, alignment: .center)
-                    .background(Color(red: 1.0, green: 1.0, blue: 1.0, opacity: 0.2))
-                    .clipped()
                     Image("pauseIcon")
                         .resizable()
                         .clipped()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 40, height: 40, alignment: .center)
+                        .background(Circle().fill(Color(red: 1.0, green: 1.0, blue: 1.0, opacity: 0.2)).blur(radius: 100, opaque: false))
                 }
-                
             })
                 .frame(width: 58)
                 .clipped()
-                .cornerRadius(58)
+                .cornerRadius(29)
             Spacer(minLength: 10)
             ZStack(alignment: .center, content: {
                 Button(action: {}, label: {
                 })
-                .blur(radius: 10)
+//                .blur(radius: 10)
                 .frame(width: 40, height: 40, alignment: .center)
-                .background(Color(red: 1.0, green: 1.0, blue: 1.0, opacity: 0.2))
                 .clipped()
                 Image("nextIcon")
                     .resizable()
                     .clipped()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 20, height: 20, alignment: .center)
+                    .background(Circle().fill(Color(red: 1.0, green: 1.0, blue: 1.0, opacity: 0.2)).blur(radius: 100, opaque: false))
             })
                .frame(width: 40, height: 40, alignment: .center)
                .clipped()
@@ -232,12 +226,26 @@ struct TextView: View {
                 .padding(.top, 8)
             Text(":\(totalSetTime - Int(progressInSeconds))")
                     .font(.system(size: 44, weight: .bold, design: .default))
+//                    .padding(.leading, 20)
             Text("The name of the TrainingThe name of the Training")
                 .foregroundColor(.white)
                 .opacity(0.8)
+//                .padding(.leading, 20)
                 .lineLimit(nil)
                 .font(.system(size: 12, weight: .bold, design: .default))
         })
         .frame(width: WKInterfaceDevice.current().screenBounds.width, height: nil, alignment: .leading)
     }
 }
+//
+//struct Blur: UIViewRepresentable {
+//    var style: UIBlurEffect.Style = .systemMaterial
+//
+//    func makeUIView(context: Context) -> UIVisualEffectView {
+//        return UIVisualEffectView(effect: UIBlurEffect(style: style))
+//    }
+//
+//    func updateUIView(_ uiView: UIVisualEffectView, context: Context) {
+//        uiView.effect = UIBlurEffect(style: style)
+//    }
+//}
