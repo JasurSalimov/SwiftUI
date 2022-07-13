@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @AppStorage("onboarding") var isOnboardingViewActive: Bool = true
+    @AppStorage("onboarding") var isOnboardingViewActive: Bool = false
     // This is swiftui's userDefaults under the hood
     var body: some View {
         ZStack{

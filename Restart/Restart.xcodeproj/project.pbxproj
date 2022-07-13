@@ -16,6 +16,7 @@
 		1D2407FE2850D9EC00D55CAD /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2407FD2850D9EC00D55CAD /* OnboardingView.swift */; };
 		1D2408002850D9F500D55CAD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2407FF2850D9F500D55CAD /* HomeView.swift */; };
 		1D5907B4287D806600D3ABF3 /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5907B3287D806600D3ABF3 /* CircleGroupView.swift */; };
+		1D5907B6287E986100D3ABF3 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5907B5287E986100D3ABF3 /* AudioPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		1D2407FD2850D9EC00D55CAD /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		1D2407FF2850D9F500D55CAD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1D5907B3287D806600D3ABF3 /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
+		1D5907B5287E986100D3ABF3 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				1D2407E72850CF5F00D55CAD /* ContentView.swift */,
-				1D2407FD2850D9EC00D55CAD /* OnboardingView.swift */,
 				1D2407FF2850D9F500D55CAD /* HomeView.swift */,
+				1D2407FD2850D9EC00D55CAD /* OnboardingView.swift */,
 				1D5907B3287D806600D3ABF3 /* CircleGroupView.swift */,
 			);
 			path = Screens;
@@ -112,6 +114,7 @@
 		1D2407FB2850D77900D55CAD /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				1D5907B5287E986100D3ABF3 /* AudioPlayer.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				1D2408002850D9F500D55CAD /* HomeView.swift in Sources */,
 				1D2407E82850CF5F00D55CAD /* ContentView.swift in Sources */,
 				1D2407E62850CF5F00D55CAD /* RestartApp.swift in Sources */,
+				1D5907B6287E986100D3ABF3 /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
