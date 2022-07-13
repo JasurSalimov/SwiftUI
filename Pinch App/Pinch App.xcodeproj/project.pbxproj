@@ -11,6 +11,10 @@
 		1D48E093287EA35E0011EFCB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D48E092287EA35E0011EFCB /* ContentView.swift */; };
 		1D48E095287EA3610011EFCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D48E094287EA3610011EFCB /* Assets.xcassets */; };
 		1D48E098287EA3610011EFCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D48E097287EA3610011EFCB /* Preview Assets.xcassets */; };
+		1D48E0A3287EB1BD0011EFCB /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D48E0A2287EB1BD0011EFCB /* InfoPanelView.swift */; };
+		1D48E0A5287EB7C30011EFCB /* ControlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D48E0A4287EB7C30011EFCB /* ControlImageView.swift */; };
+		1D48E0A7287EC56C0011EFCB /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D48E0A6287EC56C0011EFCB /* PageModel.swift */; };
+		1D48E0A9287EC6400011EFCB /* PageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D48E0A8287EC6400011EFCB /* PageData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		1D48E092287EA35E0011EFCB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1D48E094287EA3610011EFCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D48E097287EA3610011EFCB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1D48E0A2287EB1BD0011EFCB /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
+		1D48E0A4287EB7C30011EFCB /* ControlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlImageView.swift; sourceTree = "<group>"; };
+		1D48E0A6287EC56C0011EFCB /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		1D48E0A8287EC6400011EFCB /* PageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,8 @@
 		1D48E09F287EA64E0011EFCB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1D48E0A2287EB1BD0011EFCB /* InfoPanelView.swift */,
+				1D48E0A4287EB7C30011EFCB /* ControlImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -88,6 +98,7 @@
 		1D48E0A0287EA65A0011EFCB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1D48E0A6287EC56C0011EFCB /* PageModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -95,6 +106,7 @@
 		1D48E0A1287EA6620011EFCB /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				1D48E0A8287EC6400011EFCB /* PageData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -169,8 +181,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D48E0A5287EB7C30011EFCB /* ControlImageView.swift in Sources */,
+				1D48E0A7287EC56C0011EFCB /* PageModel.swift in Sources */,
 				1D48E093287EA35E0011EFCB /* ContentView.swift in Sources */,
 				1D48E091287EA35E0011EFCB /* Pinch_AppApp.swift in Sources */,
+				1D48E0A9287EC6400011EFCB /* PageData.swift in Sources */,
+				1D48E0A3287EB1BD0011EFCB /* InfoPanelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +322,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -338,7 +354,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
