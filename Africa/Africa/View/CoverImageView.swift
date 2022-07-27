@@ -16,7 +16,7 @@ struct CoverImageView: View {
             ForEach(coverImages) { item in
                 Image(item.name)
                     .resizable()
-                .scaledToFill()
+                    .scaledToFit()
             }//: Loop
         }//: Tab
         .frame(width: UIScreen.main.bounds.width)
