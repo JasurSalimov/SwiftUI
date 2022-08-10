@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D00883C28A3A75500A95448 /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D00883B28A3A75500A95448 /* HideKeyboardExtension.swift */; };
+		1D00883E28A3B2C700A95448 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D00883D28A3B2C700A95448 /* BackgroundImageView.swift */; };
+		1D00884028A3B3AF00A95448 /* NewTaskItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D00883F28A3B3AF00A95448 /* NewTaskItemView.swift */; };
+		1D00884228A3B7AE00A95448 /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D00884128A3B7AE00A95448 /* BlankView.swift */; };
+		1D00884428A3BA0600A95448 /* CustomHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D00884328A3BA0600A95448 /* CustomHeader.swift */; };
+		1D1F90FA28A3C21400F270F5 /* ListRowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1F90F928A3C21400F270F5 /* ListRowItemView.swift */; };
+		1D59B03628A3D0BC004BFB7C /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D59B03528A3D0BC004BFB7C /* SoundPlayer.swift */; };
 		1DEF795528941B9000BCFCFB /* DevoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF795428941B9000BCFCFB /* DevoteApp.swift */; };
 		1DEF795728941B9000BCFCFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF795628941B9000BCFCFB /* ContentView.swift */; };
 		1DEF795928941B9300BCFCFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DEF795828941B9300BCFCFB /* Assets.xcassets */; };
@@ -17,9 +24,17 @@
 		1DEF796C28941E7300BCFCFB /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DEF796928941E7300BCFCFB /* sound-ding.mp3 */; };
 		1DEF796D28941E7300BCFCFB /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DEF796A28941E7300BCFCFB /* sound-tap.mp3 */; };
 		1DF582EC28955A60006D633A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF582EB28955A60006D633A /* Constant.swift */; };
+		1DF88FD428A3C65E00EC5F51 /* CheckBoxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF88FD328A3C65E00EC5F51 /* CheckBoxStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D00883B28A3A75500A95448 /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
+		1D00883D28A3B2C700A95448 /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
+		1D00883F28A3B3AF00A95448 /* NewTaskItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskItemView.swift; sourceTree = "<group>"; };
+		1D00884128A3B7AE00A95448 /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
+		1D00884328A3BA0600A95448 /* CustomHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeader.swift; sourceTree = "<group>"; };
+		1D1F90F928A3C21400F270F5 /* ListRowItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowItemView.swift; sourceTree = "<group>"; };
+		1D59B03528A3D0BC004BFB7C /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 		1DEF795128941B9000BCFCFB /* Devote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Devote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DEF795428941B9000BCFCFB /* DevoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevoteApp.swift; sourceTree = "<group>"; };
 		1DEF795628941B9000BCFCFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +47,7 @@
 		1DEF796A28941E7300BCFCFB /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
 		1DEF797228941F1900BCFCFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		1DF582EB28955A60006D633A /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		1DF88FD328A3C65E00EC5F51 /* CheckBoxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +61,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D00883A28A3A2DB00A95448 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1DEF795D28941B9300BCFCFB /* Persistence.swift */,
+				1DEF795F28941B9300BCFCFB /* Devote.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		1DEF794828941B9000BCFCFB = {
 			isa = PBXGroup;
 			children = (
@@ -68,12 +93,11 @@
 				1DEF795428941B9000BCFCFB /* DevoteApp.swift */,
 				1DEF797128941EBB00BCFCFB /* Style */,
 				1DEF797028941EB600BCFCFB /* Utility */,
+				1D00883A28A3A2DB00A95448 /* Model */,
 				1DEF796F28941EB100BCFCFB /* Extension */,
 				1DEF796E28941EAB00BCFCFB /* View */,
 				1DEF795828941B9300BCFCFB /* Assets.xcassets */,
-				1DEF795D28941B9300BCFCFB /* Persistence.swift */,
 				1DEF796728941E7300BCFCFB /* Sound */,
-				1DEF795F28941B9300BCFCFB /* Devote.xcdatamodeld */,
 				1DEF795A28941B9300BCFCFB /* Preview Content */,
 			);
 			path = Devote;
@@ -101,6 +125,11 @@
 			isa = PBXGroup;
 			children = (
 				1DEF795628941B9000BCFCFB /* ContentView.swift */,
+				1D00883D28A3B2C700A95448 /* BackgroundImageView.swift */,
+				1D00883F28A3B3AF00A95448 /* NewTaskItemView.swift */,
+				1D00884128A3B7AE00A95448 /* BlankView.swift */,
+				1D00884328A3BA0600A95448 /* CustomHeader.swift */,
+				1D1F90F928A3C21400F270F5 /* ListRowItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -108,6 +137,7 @@
 		1DEF796F28941EB100BCFCFB /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				1D00883B28A3A75500A95448 /* HideKeyboardExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -116,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				1DF582EB28955A60006D633A /* Constant.swift */,
+				1D59B03528A3D0BC004BFB7C /* SoundPlayer.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -123,6 +154,7 @@
 		1DEF797128941EBB00BCFCFB /* Style */ = {
 			isa = PBXGroup;
 			children = (
+				1DF88FD328A3C65E00EC5F51 /* CheckBoxStyle.swift */,
 			);
 			path = Style;
 			sourceTree = "<group>";
@@ -200,11 +232,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D59B03628A3D0BC004BFB7C /* SoundPlayer.swift in Sources */,
 				1DEF795E28941B9300BCFCFB /* Persistence.swift in Sources */,
+				1D00883E28A3B2C700A95448 /* BackgroundImageView.swift in Sources */,
 				1DEF795728941B9000BCFCFB /* ContentView.swift in Sources */,
+				1D00883C28A3A75500A95448 /* HideKeyboardExtension.swift in Sources */,
+				1D00884228A3B7AE00A95448 /* BlankView.swift in Sources */,
 				1DF582EC28955A60006D633A /* Constant.swift in Sources */,
+				1DF88FD428A3C65E00EC5F51 /* CheckBoxStyle.swift in Sources */,
 				1DEF796128941B9300BCFCFB /* Devote.xcdatamodeld in Sources */,
+				1D1F90FA28A3C21400F270F5 /* ListRowItemView.swift in Sources */,
 				1DEF795528941B9000BCFCFB /* DevoteApp.swift in Sources */,
+				1D00884028A3B3AF00A95448 /* NewTaskItemView.swift in Sources */,
+				1D00884428A3BA0600A95448 /* CustomHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -64,7 +64,6 @@ struct ContentView: View {
                 ProductDetailView()
                     .environmentObject(shop)
             }
-           
         }// Zstack
         .ignoresSafeArea(.all, edges: .top)
     }
